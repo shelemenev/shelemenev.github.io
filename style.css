@@ -15,10 +15,12 @@ body {
 }
 
 h1 {
+  margin-top: 16%;
   text-align: center;
   position: fixed;
   width: 100%;
   color: darkgreen;
+  font-size: 0px;
 }
 
 a {
@@ -63,9 +65,10 @@ a:hover {
 
 .picture {
   width: 0;
-  margin-block: 4%;
+  margin-block: 8%;
   margin-inline: 25%;
   position: fixed;
+  border-radius: 3%;
 }
 
 .pic {

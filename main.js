@@ -1,20 +1,20 @@
-let width = 0
-let interval
+let fontsize = 0
+let intervalText
 
-function animation() {
-  const picture = document.querySelector('.picture')
-  if(!picture) {
+function animationtext() {
+  const text = document.querySelector('h1')
+  if(!text) {
     return
   }
-  if(width === 50) {
-    clearInterval(interval)
+  if(fontsize >= 120) {
+    clearInterval(intervalText)
   }
 
-  picture.style.width = width + '%'
-  picture.style.marginInline = (100 - width) / 2 + '%'
-  width = width + 2
+  text.style.fontSize = fontsize + 'px'
+  fontsize = fontsize + 3
 }
 
 function init() {
-  interval = setInterval(() => animation(), 40)
+  intervalText = setInterval(() => animationtext(), 40)
+  
 }
