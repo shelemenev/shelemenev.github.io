@@ -1,6 +1,6 @@
 @font-face {
-  font-family: Roboto;
-  src: url(fonts/Roboto-LightItalic.ttf);
+  font-family: Gothic;
+  src: url(fonts/CyrillicGoth.otf);
 }
 
 body {
@@ -10,7 +10,7 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
-  font-family: Roboto;
+  font-family: Gothic;
   font-style: normal;
 }
 
@@ -18,11 +18,11 @@ h1 {
   text-align: center;
   position: fixed;
   width: 100%;
-  color: yellow;
+  color: darkgreen;
 }
 
 a {
-  color: yellow;
+  color: darkgreen;
 }
 
 a:hover {
@@ -38,17 +38,13 @@ a:hover {
   display: flex;
 }
 
-.column {
-  flex-direction: column;
-  display: flex;
-}
-
-.category, .categorydown {
+.category {
   margin-left: 30px;
+  margin-top: 15px;
   margin-bottom: 25px;
-  font-family: Roboto;
-  font-size: 20px;
-  color: yellow;
+  font-family: Gothic;
+  font-size: 25px;
+  color: darkgreen;
 }
 
 .menu {
@@ -72,19 +68,13 @@ a:hover {
   position: fixed;
 }
 
-.share {
+.pic {
   width: 40px;
   height: 40px;
-  margin-right: 4px;
-  border: 2px solid #FFFFFF;
-  box-sizing: border-box;
-  border-radius: 5px;
-  background-color: #ED1D7C;
+  margin-left: 12px;
 }
 
-.pic {
-  margin-top: -35px;
-  margin-left: 5px;
-  width: 30px;
-  height: 30px;
+.social {
+  margin-right: 30px;
 }
+
