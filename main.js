@@ -16,5 +16,4 @@ function animationtext() {
 
 function init() {
   intervalText = setInterval(() => animationtext(), 40)
-  
 }

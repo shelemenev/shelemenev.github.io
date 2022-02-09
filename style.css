@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: #0b090c;
   width: 100%;
   height: 100%;
   margin: 0;
@@ -19,16 +19,34 @@ h1 {
   text-align: center;
   position: fixed;
   width: 100%;
-  color: darkgreen;
+  color: #d4a515;
   font-size: 0px;
 }
 
+h2 {
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  font-family: Gothic;
+  color: white;
+  font-weight: 40px;
+}
+
 a {
-  color: darkgreen;
+  color: #d4a515;
 }
 
 a:hover {
   color: skyblue;
+}
+
+p {
+  margin-left: 40px;
+  padding-right: 55px;
+  margin-top: 45px;
+  font-size: 19px;
+  font-family: Gothic;
+  color: white;
 }
 
 .space-between {
@@ -46,7 +64,7 @@ a:hover {
   margin-bottom: 25px;
   font-family: Gothic;
   font-size: 25px;
-  color: darkgreen;
+  color: #d4a515;
 }
 
 .menu {
@@ -64,11 +82,12 @@ a:hover {
 }
 
 .picture {
-  width: 0;
-  margin-block: 8%;
-  margin-inline: 25%;
+  width: 28%;
+  margin-block: 6%;
+  margin-inline: 36%;
   position: fixed;
   border-radius: 3%;
+  opacity: 0.4;
 }
 
 .pic {
