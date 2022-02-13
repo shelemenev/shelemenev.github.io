@@ -133,6 +133,10 @@ p {
   margin-top: 154px;
 }
 
+.main {
+  margin-top: 238px;
+}
+
 .gallery {
   width: 20%;
   margin-left: 10%;
@@ -154,9 +158,14 @@ p {
   font-family: URWGothic;
 }
 
+.gallery img {
+  width: 400px;
+  height: 400px;
+}
+
 .photo {
   width: 12%;
-  margin-left: 6.6%;
+  margin-left: 6.8%;
   z-index: 1;
 }
 
@@ -169,7 +178,7 @@ p {
   color: #d4a515;
   text-align: center;
   margin-top: 12px;
-  margin-bottom: 26px;
+  margin-bottom: 36px;
   font-size: 18px;
   font-family: URWGothic;
 }
