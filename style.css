@@ -50,10 +50,21 @@ p {
   width: 97%;
   margin-left: 30px;
   margin-top: 140px;
-  font-size: 26px;
-  text-align: justify;
+  font-size: 27px;
+  text-align: left;
   font-family: URWGothic;
   color: #d4a515;
+}
+
+.text {
+  width: 34%;
+  position: fixed;
+}
+
+.two {
+  width: 34%;
+  margin-left: 64%;
+  position: fixed;
 }
 
 .space-between {
@@ -105,6 +116,10 @@ p {
   position: fixed;
   border-radius: 3%;
   opacity: 0.5;
+}
+
+.about {
+  opacity: 1;
 }
 
 .pic {
