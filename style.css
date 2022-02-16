@@ -30,16 +30,18 @@ h1 {
 
 h2 {
   text-align: center;
-  position: fixed;
   width: 100%;
   font-family: Gothic;
   color: red;
   font-size: 50px;
-  z-index: 2;
 }
 
 a {
   color: #d4a515;
+}
+
+li {
+  width: 97%;
 }
 
 a:hover {
@@ -49,16 +51,34 @@ a:hover {
 p {
   width: 97%;
   margin-left: 30px;
-  margin-top: 140px;
   font-size: 27px;
   text-align: left;
   font-family: URWGothic;
   color: #d4a515;
 }
 
+.resume {
+  width: 96%;
+  margin-left: 1%;
+  margin-top: 2%;
+  font-size: 24px;
+  text-align: left;
+  font-family: URWGothic;
+  color: #d4a515;
+  position: relative;
+}
+
 .text {
   width: 34%;
   position: fixed;
+}
+
+.retext {
+  width: 80%;
+  font-family: Gothic;
+  color: #d4a515;
+  font-size: 130px;
+  text-align: center;
 }
 
 .two {
@@ -88,6 +108,16 @@ p {
   font-family: Gothic;
   font-size: 25px;
   color: #d4a515;
+}
+
+.recategory {
+  width: 76%;
+  font-family: Gothic;
+  font-size: 55px;
+  text-align: center;
+  color: #d4a515;
+  position: relative;
+  padding-bottom: 3%;
 }
 
 .menu {
@@ -120,12 +150,20 @@ p {
 
 .about {
   opacity: 1;
+  margin-block: 1%;
 }
 
 .pic {
   width: 40px;
   height: 40px;
   margin-left: 12px;
+}
+
+.work {
+  width: 60px;
+  height: 60px;
+  margin-left: 2%;
+  margin-top: 2%;
 }
 
 .social {
@@ -145,16 +183,13 @@ p {
 }
 
 .content {
-  margin-top: 154px;
-}
-
-.main {
-  margin-top: 238px;
+  margin-bottom: 8%;
 }
 
 .gallery {
   width: 20%;
   margin-left: 10%;
+  margin-top: 5%;
   margin-bottom: 5%;
   z-index: 1;
 }
@@ -247,4 +282,13 @@ p {
 
 img {
   object-fit: cover;
+}
+
+.repic {
+  width: 350px;
+  height: 350px;
+  margin-left: 78%;
+  border-radius: 50%;
+  border: 1px solid #d4a515;
+  position: absolute;
 }
