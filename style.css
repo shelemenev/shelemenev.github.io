@@ -32,7 +32,7 @@ h2 {
   text-align: center;
   width: 100%;
   font-family: Gothic;
-  color: red;
+  color: darkred;
   font-size: 50px;
 }
 
@@ -76,7 +76,7 @@ p {
 .retext {
   width: 80%;
   font-family: Gothic;
-  color: #d4a515;
+  color: sandybrown;
   font-size: 130px;
   text-align: center;
 }
@@ -186,21 +186,21 @@ p {
   margin-bottom: 8%;
 }
 
-.gallery {
+.gallery, .places {
   width: 20%;
   margin-left: 10%;
   margin-top: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 4%;
   z-index: 1;
 }
 
-.gallery img, .photo img {
+.gallery img, .photo img, .places img {
   width: 100%;
   border-radius: 5%;
   border: 1px solid #d4a515;
 }
 
-.gallery div {
+.gallery div, .places div {
   color: #d4a515;
   text-align: center;
   margin-top: 20px;
@@ -211,6 +211,16 @@ p {
 .gallery img {
   width: 400px;
   height: 400px;
+}
+
+.places {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.places img {
+  width: 350px;
+  height: 350px;
 }
 
 .photo {
