@@ -78,7 +78,6 @@ function showPopup() {
   right.innerHTML = "<img src='images/arrow_left.png' style='transform:rotate(180deg)'>"
   right.className = 'button_right'
   const img = document.createElement('img')
-  img.style.width = `${size}px`
   img.style.height = `${size}px`
   img.onclick = () => closePopup()
   img.src = images[index].src
