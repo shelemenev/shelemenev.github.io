@@ -4,11 +4,6 @@
 }
 
 @font-face {
-  font-family: URWGothic;
-  src: url(fonts/URWGothic-Book.otf);
-}
-
-@font-face {
   font-family: PoiretOne-Regular;
   src: url(fonts/PoiretOne-Regular.ttf);
 }
@@ -58,7 +53,7 @@ p {
   margin-left: 30px;
   font-size: 27px;
   text-align: left;
-  font-family: URWGothic;
+  font-family: PoiretOne-Regular;
   color: #d4a515;
 }
 
@@ -86,7 +81,7 @@ td {
   margin-top: 2%;
   font-size: 24px;
   text-align: left;
-  font-family: URWGothic;
+  font-family: PoiretOne-Regular;
   color: #d4a515;
   position: relative;
 }
@@ -102,17 +97,16 @@ td {
   position: fixed;
 }
 
-.format {
-  padding-right: 10px;
-}
-
 .right {
   border-right: 1px solid #d4a515;
 }
 
+.bottom {
+  border-bottom: 1px solid #d4a515;
+}
+
 .high {
   text-align: center;
-  padding: 10px;
 }
 
 .retext {
@@ -247,7 +241,8 @@ td {
   text-align: center;
   margin-top: 20px;
   font-size: 32px;
-  font-family: URWGothic;
+  font-family: PoiretOne-Regular;
+  font-weight: bold;
 }
 
 .gallery img {
@@ -282,7 +277,8 @@ td {
   margin-top: 12px;
   margin-bottom: 36px;
   font-size: 18px;
-  font-family: URWGothic;
+  font-weight: bold;
+  font-family: PoiretOne-Regular;
 }
 
 .popup {
