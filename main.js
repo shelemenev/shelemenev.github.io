@@ -1,5 +1,23 @@
 let fontsize = 0
 let intervalText
+let first = true
+
+function soundClick() {
+  let audio = new Audio('music/rain.mp3')
+  audio.play()
+  audio.loop = true
+}
+
+function start() {
+  if (!first) return
+
+  document.querySelector('.enter').style.display = 'none'
+  document.querySelector('.menu').style.display = 'block'
+  document.querySelector('.menudown').style.display = 'block'
+  soundClick()
+  intervalText = setInterval(() => animationtext(), 40)
+  first = false
+}
 
 function animationtext() {
   const text = document.querySelector('h1')
@@ -15,5 +33,5 @@ function animationtext() {
 }
 
 function init() {
-  intervalText = setInterval(() => animationtext(), 40)
+  document.addEventListener('click', start)
 }
