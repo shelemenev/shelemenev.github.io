@@ -191,6 +191,10 @@ td {
   width: 98%;
 }
 
+.up {
+  width: 30px;
+}
+
 .picture {
   width: 28%;
   margin-block: 6%;
