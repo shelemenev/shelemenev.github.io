@@ -39,13 +39,12 @@ h2 {
 .enter {
   text-align: center;
   width: 100%;
-  font-family: PoiretOne-Regular;
-  font-weight: bold;
+  font-family: Gothic;
   margin-top: 16%;
   color: red;
   position: fixed;
-  font-size: 250px;
-  text-decoration: underline;
+  font-size: 200px;
+  cursor: pointer;
 }
 
 a {
