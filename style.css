@@ -37,14 +37,16 @@ h2 {
 }
 
 .enter {
-  text-align: center;
   width: 100%;
+  height: 100%;
   font-family: Gothic;
-  margin-top: 16%;
   color: red;
   position: fixed;
   font-size: 200px;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 a {
@@ -71,7 +73,7 @@ p {
 table {
   width: 96%;
   margin-left: 2%;
-  margin-bottom: 4%;
+  margin-bottom: 10%;
 }
 
 td {
@@ -141,6 +143,7 @@ td {
 .row {
   flex-direction: row;
   display: flex;
+  justify-content: space-between;
 }
 
 .column {
@@ -150,8 +153,8 @@ td {
 
 .category {
   margin-left: 30px;
-  margin-top: 15px;
-  margin-bottom: 25px;
+  margin-top: 0.2%;
+  margin-bottom: 2.5%;
   font-family: Gothic;
   font-size: 25px;
   color: #d4a515;
@@ -182,7 +185,7 @@ td {
   z-index: 2;
 }
 
-.display{
+.display {
   display: none;
 }
 
@@ -242,8 +245,8 @@ td {
 }
 
 .gallery, .places {
-  width: 20%;
-  margin-left: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-top: 5%;
   margin-bottom: 4%;
   z-index: 1;
@@ -280,8 +283,8 @@ td {
 }
 
 .photo {
-  width: 12%;
-  margin-left: 6.8%;
+  margin-left: 3%;
+  margin-right: 3%;
   z-index: 1;
 }
 
