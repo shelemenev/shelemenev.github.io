@@ -246,7 +246,7 @@ td {
 
 .gallery, .places {
   margin-left: 5%;
-  margin-right: 5%;
+  padding-right: 5%;
   margin-top: 5%;
   margin-bottom: 4%;
   z-index: 1;
@@ -274,7 +274,7 @@ td {
 
 .places {
   margin-left: 3%;
-  margin-right: 3%;
+  padding-right: 3%;
 }
 
 .places img {
@@ -284,7 +284,7 @@ td {
 
 .photo {
   margin-left: 3%;
-  margin-right: 3%;
+  padding-right: 3%;
   z-index: 1;
 }
 
