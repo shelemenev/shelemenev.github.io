@@ -89,7 +89,6 @@ td {
 }
 
 .resume {
-  width: 96%;
   margin-left: 3%;
   margin-top: 2%;
   font-size: 24px;
@@ -139,7 +138,6 @@ td {
 .row {
   flex-direction: row;
   display: flex;
-  justify-content: space-between;
 }
 
 .column {
@@ -349,9 +347,9 @@ img {
 }
 
 .repic {
-  width: 300px;
-  height: 300px;
+  width: 15%;
   margin-right: 5%;
   border-radius: 25%;
   border: 1px solid #d4a515;
+  float: right;
 }
