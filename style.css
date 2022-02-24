@@ -90,13 +90,12 @@ td {
 
 .resume {
   width: 96%;
-  margin-left: 1%;
+  margin-left: 3%;
   margin-top: 2%;
   font-size: 24px;
   text-align: left;
   font-family: PoiretOne-Regular;
   color: #d4a515;
-  position: relative;
 }
 
 .list {
@@ -105,8 +104,8 @@ td {
   margin-bottom: 1%;
 }
 
-.text {
-  width: 34%;
+.text, .two {
+  width: 33.06%;
   position: fixed;
 }
 
@@ -123,17 +122,14 @@ td {
 }
 
 .retext {
-  width: 80%;
   font-family: Gothic;
   color: sandybrown;
-  font-size: 130px;
+  font-size: 100px;
   text-align: center;
 }
 
 .two {
-  width: 34%;
   margin-left: 64%;
-  position: fixed;
 }
 
 .space-between {
@@ -161,12 +157,10 @@ td {
 }
 
 .recategory {
-  width: 76%;
   font-family: Gothic;
-  font-size: 55px;
+  font-size: 50px;
   text-align: center;
   color: #d4a515;
-  position: relative;
   padding-bottom: 3%;
 }
 
@@ -355,10 +349,9 @@ img {
 }
 
 .repic {
-  width: 350px;
-  height: 350px;
-  margin-left: 78%;
-  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin-right: 5%;
+  border-radius: 25%;
   border: 1px solid #d4a515;
-  position: absolute;
 }
