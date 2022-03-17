@@ -354,3 +354,7 @@ img {
   border: 1px solid #d4a515;
   float: right;
 }
+
+.goup {
+  cursor: pointer;
+}
