@@ -270,9 +270,13 @@ td {
   padding-right: 3%;
 }
 
-.places img {
-  width: 350px;
-  height: 350px;
+.places img, iframe {
+  width: 1200px;
+  height: 760px;
+  z-index: 1;
+  border-radius: 1%;
+  border: 1px solid #d4a515;
+  margin: auto;
 }
 
 .photo {
