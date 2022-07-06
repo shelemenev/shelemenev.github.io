@@ -85,7 +85,6 @@ function showPopup() {
   }
 
   const isPortrait = document.body.offsetHeight > document.body.offsetWidth
-  console.log(isPortrait)
   const size = window.innerWidth / (isPortrait ? 1.1 : 3)
   const left = document.createElement('div')
   left.onclick = () => {
