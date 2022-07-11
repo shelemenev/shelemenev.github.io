@@ -59,7 +59,7 @@
   }
 
   a:hover {
-    color: skyblue;
+    color: #FFFFFF;
   }
 
   p {
@@ -154,6 +154,12 @@
     font-family: Gothic;
     font-size: 25px;
     color: #d4a515;
+  }
+
+  .big:hover {
+    -webkit-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    transform: scale(1.4);
   }
 
   .recategory {
@@ -365,7 +371,7 @@
     cursor: pointer;
   }
 
-   .hidden {
+  .hidden {
     display: none;
   }
 }
