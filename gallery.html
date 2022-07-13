@@ -1,5 +1,6 @@
 <head>
   <link rel=stylesheet type=text/css href="style.css">
+  <link rel=stylesheet type=text/css href="animation.css">
   <script src="script.js"></script>
   <meta charset="UTF-8">
 </head>
@@ -9,19 +10,19 @@
     <h2>Галерея</h2>
     <div class="content">
       <div class="row-desktop space-between">
-        <div class="column gallery">
+        <div class="column gallery path">
           <a href="dog.html">
             <img src="images/02.jpeg">
           </a>
           <div><a href="dog.html">Собака</a></div>
         </div>
-        <div class="column gallery">
+        <div class="column gallery path">
           <a href="me.html">
             <img src="images/01.jpeg">
           </a>
           <div><a href="me.html">Я</a></div>
         </div>
-        <div class="column gallery">
+        <div class="column gallery path">
           <a href="cat.html">
             <img src="images/03.jpeg">
           </a>
@@ -31,13 +32,13 @@
     </div>
   </div>
   <div class="row kick space-between">
-    <div class="category big"><a class='color' href='index.html'>На главную</a></div>
+    <div class="category big color" data-text="На главную"><a class='color' href='index.html'>На главную</a></div>
     <div class="row">
-      <div class="category big"><a class='color' href='about.html'>Обо мне</a></div>
-      <div class="category big"><a class='color' href='places.html'>Места</a></div>
-      <div class="category big"><a class='color' href='music.html'>Музыка</a></div>
-      <div class="category big"><a class='color' href='video.html'>Видео</a></div>
-      <div class="category big"><a class='color' href='resume.html'>Резюме</a></div>
+      <div class="category big color" data-text="Обо мне"><a class='color' href='about.html'>Обо мне</a></div>
+      <div class="category big color" data-text="Места"><a class='color' href='places.html'>Места</a></div>
+      <div class="category big color" data-text="Музыка"><a class='color' href='music.html'>Музыка</a></div>
+      <div class="category big color" data-text="Видео"><a class='color' href='video.html'>Видео</a></div>
+      <div class="category big color" data-text="Резюме"><a class='color' href='resume.html'>Резюме</a></div>
     </div>
   </div>
 </body>
