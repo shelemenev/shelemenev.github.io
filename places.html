@@ -2,11 +2,36 @@
   <link rel=stylesheet type=text/css href="style.css">
   <link rel=stylesheet type=text/css href="animation.css">
   <script src="script.js"></script>
+  <script src="main.js"></script>
+  <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(89642871, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/89642871" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 </head>
-<body onload="init()">
+<body onload="init(); main()">
   <img class="background" src="images/background1.jpeg">
   <div class="column">
+    <div class="category_mobile menu_button end_2 hidden">///</div>
     <h2>Места</h2>
+    <div class="menu_mobile hidden">
+      <div class="category_mobile end"><a href='places.html'><img src="images/cross.png"></a></div>
+      <div class="category_mobile"><a href='index.html'>На главную</a></div>
+      <div class="category_mobile"><a href='about.html'>Обо мне</a></div>
+      <div class="category_mobile"><a href='gallery.html'>Галерея</a></div>
+      <div class="category_mobile"><a href='music.html'>Музыка</a></div>
+      <div class="category_mobile"><a href='video.html'>Видео</a></div>
+      <div class="category_mobile"><a href='resume.html'>Резюме</a></div>
+    </div>
     <div class="content hidden_mobile">
       <div class="row space-between">
         <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A428e949043d8c4c5992f4bf1581abd4ac8e9b7d25014d06b882f491f61f7095f&amp;source=constructor" width="1022" height="720" frameborder="0"></iframe>
@@ -41,7 +66,7 @@
       </div>
     </div>
   </div>
-  <div class="row kick space-between">
+  <div class="row kick space-between hidden_mobile">
     <div class="category big color" data-text="На главную"><a class='color' href='index.html'>На главную</a></div>
     <div class="row">
       <div class="category big color" data-text="Обо мне"><a class='color' href='about.html'>Обо мне</a></div>

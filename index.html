@@ -5,10 +5,24 @@
   <title>Shaga</title>
   <script src="main.js"></script>
   <meta charset="UTF-8">
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(89642871, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/89642871" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 </head>
-<body onload="init()">
+<body onload="animate(); main()">
   <div class="menu display">
-    <div class="row space-between">
+    <div class="row space-between hidden_mobile">
       <div class="row">
         <div class="category big" data-text="Обо мне"><a href='about.html'>Обо мне</a></div>
         <div class="category big" data-text="Галерея"><a href='gallery.html'>Галерея</a></div>
@@ -19,7 +33,17 @@
       </div>
     </div>
     <div class="column">
+      <div class="category_mobile menu_button end_2 hidden">///</div>
       <h1>Александр "Shaga" Шелеменев</h1>
+      <div class="menu_mobile hidden">
+        <div class="category_mobile end"><a onclick="menuFunction()"><img src="images/cross.png"></a></div>
+        <div class="category_mobile"><a href='about.html'>Обо мне</a></div>
+        <div class="category_mobile"><a href='gallery.html'>Галерея</a></div>
+        <div class="category_mobile"><a href='places.html'>Места</a></div>
+        <div class="category_mobile"><a href='music.html'>Музыка</a></div>
+        <div class="category_mobile"><a href='video.html'>Видео</a></div>
+        <div class="category_mobile"><a href='resume.html'>Резюме</a></div>
+      </div>
       <img class="background" src="images/background.jpeg">
       <img class="picture" src="images/01.jpeg">
     </div>

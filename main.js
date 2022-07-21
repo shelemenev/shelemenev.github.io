@@ -32,6 +32,22 @@ function animationtext() {
   fontsize = fontsize + 3
 }
 
-function init() {
+function animate() {
   document.addEventListener('click', start)
+}
+
+function main() {
+  const isPortrait = document.body.offsetHeight > document.body.offsetWidth
+  isPortrait && document.querySelector('.menu_button').addEventListener('click', menuFunction)
+}
+
+function menuFunction() {
+  const x = document.querySelector('.menu_mobile')
+
+  if (x === null || x === undefined) {
+    return
+  }
+
+  const isFlex = x.style.display == 'flex'
+  x.style.display = isFlex ? 'none' : 'flex'
 }

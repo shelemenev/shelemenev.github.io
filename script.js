@@ -13,8 +13,12 @@ function init() {
   }
 
   if (document.querySelector('.goup')) {
-    document.querySelector('.goup').onclick = function() {
-      scrollInterval = setInterval(scrollToEndPage, 40)
+    const goups = document.querySelectorAll('.goup')
+
+    for (let goup of goups) {
+      goup.addEventListener('click', function() {
+        scrollInterval = setInterval(scrollToEndPage, 40)
+      })
     }
 
     window.addEventListener('scroll', function() {
