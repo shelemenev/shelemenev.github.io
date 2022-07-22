@@ -551,9 +551,16 @@
     top: 0;
   }
 
-  .menudown, .kick {
+  .menudown {
     width: 100%;
     position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+  }
+
+  .kick {
+    width: 98%;
     left: 0;
     bottom: 0;
     z-index: 2;
@@ -563,12 +570,12 @@
     display: none;
   }
 
-  .kick {
-    width: 98%;
-  }
-
   .up {
     width: 10vw;
+  }
+
+  .ten {
+    padding-left: 84%;
   }
 
   .picture {
@@ -610,6 +617,7 @@
   .down {
     margin-left: 4%;
     margin-bottom: 4%;
+    padding-right: 3vw;
   }
 
   .content {
