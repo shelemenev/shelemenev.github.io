@@ -519,7 +519,6 @@
   .column {
     flex-direction: column;
     display: flex;
-    align-items: center;
   }
 
   .category, .category_mobile {
