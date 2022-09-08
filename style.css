@@ -581,6 +581,7 @@
     width: 96%;
     border-radius: 3%;
     margin-top: 2vw;
+    margin-left: 2vw;
   }
 
   .about {
@@ -783,5 +784,6 @@
 
    .end_2 {
     margin-top: 0vw;
+    margin-left: 88vw;
    }
 }
